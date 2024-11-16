@@ -15,7 +15,7 @@ const ThemeImage = (props: Props) => {
   const [mounted, setMounted] = useState(false)
 
   const {theme} = useTheme()
-  console.log("senin anan sikişiyor:" , theme)
+  console.log("Test theme:" , theme)
 
   useEffect(() => {
     setMounted(true)
